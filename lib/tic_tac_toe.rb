@@ -82,3 +82,4 @@ WIN_COMBINATIONS = [
       index_1 = win_combination[1]
       index_2 = win_combination[2]
       
+      position_1 = board[]
