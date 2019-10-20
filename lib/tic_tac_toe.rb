@@ -111,7 +111,7 @@ WIN_COMBINATIONS = [
     end
   end
   
-  #over
+  #over?
   def over?(board)
     if won?(board) || draw?(board) || full?(board)
       return true
@@ -135,7 +135,11 @@ WIN_COMBINATIONS = [
     end
   end
   
-  
+  #play
+  def play(board)
+    until over?(board)
+    turn(board)
+    
   
         
       
