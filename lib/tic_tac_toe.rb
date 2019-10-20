@@ -63,6 +63,8 @@ WIN_COMBINATIONS = [
     return turn
   end
   
-  #
-    
+  #current_player
+  def current_player
+    turn = turn_count(board)
+    if turn 
     
