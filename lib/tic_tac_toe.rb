@@ -127,7 +127,7 @@ WIN_COMBINATIONS = [
     if index == false
       return nil
     else
-      if board[index[0]] = "X"
+      if board[index[0]] == "X"
         return "X"
       else
         return "O"
