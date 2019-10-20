@@ -75,4 +75,5 @@ WIN_COMBINATIONS = [
     return player
   end
     
-  #move
+  #won?
+  
