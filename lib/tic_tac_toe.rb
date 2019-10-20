@@ -44,7 +44,7 @@ WIN_COMBINATIONS = [
       puts "Please choose a number between 1-9:"
       user_input = gets.strip
       input_to_index(user_input)
-      if user_input.between?(0,8) && valid_move?(board,user_index) == true
+      if valid_move?(board,user_index) == true
         move(board,user_index,current_player)
         display_board(board)
       else
