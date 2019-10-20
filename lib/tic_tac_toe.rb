@@ -45,7 +45,7 @@ WIN_COMBINATIONS = [
       user_input = gets.strip
       user_index = input_to_index(user_input)
       if valid_move?(board,user_index)
-        player_toke = current_player(board)
+        player_token = current_player(board)
         move(board,user_index,player_token)
         display_board(board)
       else
