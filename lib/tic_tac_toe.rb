@@ -65,6 +65,6 @@ WIN_COMBINATIONS = [
   
   #current_player
   def current_player
-    turn = turn_count(board)
-    if turn 
+    num_turns = turn_count(board)
+    if num_turns.odd 
     
