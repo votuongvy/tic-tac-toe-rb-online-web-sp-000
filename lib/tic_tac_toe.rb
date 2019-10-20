@@ -43,6 +43,7 @@ WIN_COMBINATIONS = [
     def turn(board)
       puts "Please choose a number between 1-9:"
       user_input = gets.strip
+      input_to_index(user_input)
       if valid_move?(board,user_index)
         move(board,user_index,current_player)
       else
