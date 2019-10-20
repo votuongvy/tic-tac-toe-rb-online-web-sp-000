@@ -47,7 +47,8 @@ WIN_COMBINATIONS = [
         move(board,user_index,current_player)
       else
         turn(board)
-      if 
+      end
+    end
   
       
     
