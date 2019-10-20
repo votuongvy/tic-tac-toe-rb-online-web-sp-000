@@ -138,7 +138,17 @@ WIN_COMBINATIONS = [
   #play
   def play(board)
     until over?(board)
-    turn(board)
+      turn(board)
+    end
+    
+    if won?(board)
+      winner_name = winner(board)
+      puts "Congratulation! #{winner_name} won the game."
+    elsif draw?(board)
+      puts "It has been a draw."
+    end
+  end
+      
     
   
         
