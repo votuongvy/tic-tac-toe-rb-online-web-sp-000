@@ -97,7 +97,10 @@ WIN_COMBINATIONS = [
   
   #full?
   def full?(board)
-    board.each do |index|
+    board.all? do |index|
+      index == "X" || index == "O"
+    end
+  end
       
   
   
