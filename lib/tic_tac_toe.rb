@@ -66,5 +66,10 @@ WIN_COMBINATIONS = [
   #current_player
   def current_player
     num_turns = turn_count(board)
-    if num_turns.odd 
+    if num_turns % 2 == 0 
+      current_player = "O"
+    else
+      current_player = "X"
+    end
+  end
     
