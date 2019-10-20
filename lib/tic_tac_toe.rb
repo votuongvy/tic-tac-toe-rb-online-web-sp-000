@@ -119,6 +119,10 @@ WIN_COMBINATIONS = [
       return false
     end
   end
+  
+  #winner
+  def winner(board)
+    win_combination
       
       
   
