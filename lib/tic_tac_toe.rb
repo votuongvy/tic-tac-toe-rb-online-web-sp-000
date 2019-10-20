@@ -27,6 +27,7 @@ WIN_COMBINATIONS = [
   #move
   def move(board,user_index,current_player)
     board[user_index] = current_player
+    return board
   end
   
   #position_taken?
