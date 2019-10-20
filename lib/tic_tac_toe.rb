@@ -145,7 +145,7 @@ WIN_COMBINATIONS = [
       winner_name = winner(board)
       puts "Congratulations #{winner_name}!"
     elsif draw?(board)
-      puts "It has been a draw."
+      puts "Cat's Game!"
     end
   end
       
