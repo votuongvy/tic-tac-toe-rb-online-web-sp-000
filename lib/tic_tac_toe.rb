@@ -40,5 +40,12 @@ WIN_COMBINATIONS = [
   end
   
   #turn
-    
+    def turn(board)
+      puts "Please choose a number between 1-9:"
+      user_input = gets.strip
+      if input_to_index(user_input).between?(0,8) && position_
+      
+      if 
+  
+      
     
