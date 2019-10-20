@@ -54,5 +54,7 @@ WIN_COMBINATIONS = [
   
   #turn_count
   def turn_count(board)
-    
+    turn = 0
+    board.each do |index|
+      
     
