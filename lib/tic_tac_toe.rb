@@ -95,5 +95,8 @@ WIN_COMBINATIONS = [
     return false
   end
   
+  #full?
+  def full?(board)
+    
   
   
