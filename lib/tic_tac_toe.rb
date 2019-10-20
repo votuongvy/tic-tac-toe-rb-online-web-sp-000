@@ -143,7 +143,7 @@ WIN_COMBINATIONS = [
     
     if won?(board)
       winner_name = winner(board)
-      puts "Congratulation! #{winner_name}."
+      puts "Congratulations #{winner_name}!"
     elsif draw?(board)
       puts "It has been a draw."
     end
