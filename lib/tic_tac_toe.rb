@@ -122,7 +122,8 @@ WIN_COMBINATIONS = [
   
   #winner
   def winner(board)
-    win_combination
+    index = []
+    
       
       
   
