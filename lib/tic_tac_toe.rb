@@ -67,9 +67,9 @@ WIN_COMBINATIONS = [
   def current_player(board)
     num_turns = turn_count(board)
     if num_turns % 2 == 0 
-      player = "O"
-    else
       player = "X"
+    else
+      player = "O"
     end
     return player
   end
