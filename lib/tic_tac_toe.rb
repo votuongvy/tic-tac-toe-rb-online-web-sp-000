@@ -27,7 +27,6 @@ WIN_COMBINATIONS = [
   #move
   def move(board,user_index,current_player)
     board[user_index] = current_player
-    return board
   end
   
   #position_taken?
@@ -47,7 +46,7 @@ WIN_COMBINATIONS = [
       input_to_index(user_input)
       if user_input.between?(0,8) && valid_move?(board,user_index) == true
         move(board,user_index,current_player)
-        return 
+        display_board(board)
       else
         turn(board)
       end
