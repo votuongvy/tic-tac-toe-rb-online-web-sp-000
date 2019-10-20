@@ -76,4 +76,6 @@ WIN_COMBINATIONS = [
   end
     
   #won?
-  
+  def wons?(board)
+    
+    if 
