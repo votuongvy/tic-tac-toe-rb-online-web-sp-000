@@ -130,7 +130,11 @@ WIN_COMBINATIONS = [
       if board[index[0]] = "X"
         return "X"
       else
-        
+        return "0"
+      end
+    end
+  end
+  
         
       
       
