@@ -101,6 +101,16 @@ WIN_COMBINATIONS = [
       index == "X" || index == "O"
     end
   end
+  
+  #draw?
+  def draw?(board)
+    if won?(board) == "false" && full?(board)
+      return true
+    else
+      return false
+    end
+  end
+      
       
   
   
