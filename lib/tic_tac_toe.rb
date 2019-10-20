@@ -126,7 +126,9 @@ WIN_COMBINATIONS = [
     index = won?(board)
     if index == false
       return nil
-      
+    else
+      if board[index] = "X"
+        
       
       
   
